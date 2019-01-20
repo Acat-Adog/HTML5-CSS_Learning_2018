@@ -1,0 +1,228 @@
+	body{
+		background-color: #E6E6FA;
+	}
+	header{
+		width: 100%;
+		height: 60px;
+		background: url(../img/header.jpg) repeat-x center 0;
+	}
+	#header{
+		clear: both;
+		width: 1280px;
+		height: 60px;
+		margin: 0 auto;
+		
+		position: relative;
+		left: 60px;
+	}
+	#header>#name{
+		padding: 0;
+		height: 60px;
+		width: 200px;
+		float: left;
+	}
+	#header>#name #name1{
+		font-size: 40px;
+		font-family: "微软雅黑";
+		color: white;
+	}
+	#header>#name #name2{
+		font-size: 25px;
+		font-family: "微软雅黑";
+		color: white;
+	}
+	#header>ul{
+		padding: 0;
+		height: 60px;
+		width: 700px;
+		float: left;
+	}
+	#header>ul>li{
+		display: block;
+		float: left;
+		height: 40px;
+		width: 80px;
+		border-right: white solid 1px;
+		list-style-type: none;
+		
+	}
+	#header>ul li:hover{
+		background-color: #ffffff;
+	}
+	#header>ul>li a:hover{
+		color: #6ED0FD;
+	}
+	#header>ul>li a{
+		height: 40px;
+		width: 80px;
+		font-size: 15px;
+		color: white;
+		text-decoration: none;
+		text-align: center;
+		padding-top: 5px;
+		display: flex;
+		justify-content: center;
+	}
+	#header>#Button1AndResearch{
+		float: right;
+	}
+	#header>#Button1AndResearch>#Research{
+		
+		float: left;
+		width: 300px;
+		height: 30px;
+		margin-top: 20px;
+	}
+	#research{
+		display: block;
+		/*border-style: solid;*/
+		width: 208px;
+		height: 30px;
+	}
+	#research>input{
+		width: auto;
+		float: left;
+		height: 20px;
+	}
+	
+	#header>#Button1AndResearch>#Research>form>button{
+		display: block;
+		border-style: solid;
+		width: 30px;
+		height: 25px;
+		border-style: none;
+		float: left;
+		background-image: url(../img/find.jpg);
+	}
+	#header>#Button1AndResearch>#button1{
+		height: 30px;
+		width: 60px;
+		float: left;
+		padding: 0;
+		border-right: white solid 1px;
+		margin-top: 20px;
+	}
+	#header>#Button1AndResearch>#button1>button{
+		height: 20px;
+		width: 50px;
+		float: right;
+		font-size: 15px;
+		color: white;
+		background: none;
+		border-style: none;
+		text-align: center;
+	}
+	
+	#gg{
+		margin-top: 20px;
+		width: 1220px;
+		height: 100px;
+		position: relative;
+		left: 150px;
+		background-image: url(../img/gg.JPG);
+	}
+	#Total{
+		width: 1100px;
+		height: 2300px;
+		background-color: white;
+		margin-top: 20px;
+		margin-left: 210px;
+	}
+	
+	img{
+		border-radius: 220px;
+	}
+	#d1{
+		width: 100%;
+		height: 150px;
+		
+	}
+	
+	#block{
+		float: left;
+		border-radius: 30px;
+		margin-left: 10px;
+		margin-top: 20px;
+		width: 50px;
+		height: 50px;
+		background-color: #6ED0FD;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: white;
+	}
+	#content{
+		width: 1000px;
+		height: 80px;
+		float: left;
+		
+		display: flex;
+		align-items: center;
+	}
+	#content span{
+		margin-top: 15px;
+		font-size: 25px;
+		font-weight: bold;
+		
+	}
+	#bz{
+		float: left;
+		width: 100%;
+		height: 50px;
+		/*border-style: solid;*/
+	}
+	#bz span{
+		font-size: 10px;
+		margin-left: 75px;
+	}
+	#d2{
+		width: auto;
+		height: 300px;
+		margin-left: 150px;
+		background-image: url(../img/zx1.JPG);
+		background-origin: border-box;
+		background-repeat: no-repeat;
+		display: flex;
+		justify-content: center;
+	}
+	p{
+		font-size: 20px;
+		text-indent: 30px;
+		line-height: 25px;
+		
+	}
+	footer{
+		margin-top: 15px;
+		width: 100%;
+		height: 200px;
+		background-color: #4f4f4f;
+		border-top-left-radius: 100px;
+		border-top-right-radius: 100px;
+	}
+	#fotter{
+		position: relative;
+		left: 260px;
+		width: 1000px;
+		height: 170px;
+		display: flex;
+		justify-content: space-between;
+	}
+	h1, h2{
+		color: white;
+		font-size: 30px;
+	}
+	#yqlj a{
+		text-decoration: none;
+		color: white;
+		font-size: 15px;
+	}
+	#zddh a{
+		text-decoration: none;
+		color: white;
+		font-size: 15px;
+	}
+	#aboutMe{
+		color: white;
+		display: flex;
+		justify-content: center;
+	}
